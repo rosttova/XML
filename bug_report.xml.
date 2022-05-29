@@ -1,1 +1,14 @@
+<id> Bug_id : 70 </id>
 
+<title> Title: Grid_data.txt file doesn’t attached when sending the message </title>
+<severity> Severity : minor </severity>
+<priority> Priority : low </priority> 
+<envir> Environment : Pixel XL, Android 9 </envir>
+<precond> Precondition: Install and open app. Press “Save data”</precond>
+
+<steps> STR: 1) Press “Send email”
+2) Press “Messages”
+3) Choose number to send file </steps>
+
+<ar> AR: Аppears message window with attached Grid_data.txt file </ar>
+<er> ER: Appears a message “Attachment type not supported”. After in the outgoing message there is text “Android device info” <er> 
